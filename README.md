@@ -1,2 +1,3 @@
 # pub-sub-redis
-Use pub/sub channel in Redis with python.
+
+Here is the pub/sub code I used in one of my projects.
