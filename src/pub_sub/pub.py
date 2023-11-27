@@ -59,6 +59,9 @@ class MessagePublish:
             else:
                 logger.error("Cannot publish to redis... " "giving up")
 
+    ##############################################
+    #              下面是一些使用案例               #
+    ##############################################
     async def publish_student_info(
         self,
         payload: Any,

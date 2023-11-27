@@ -113,6 +113,9 @@ class MessageSubscribe:
 
                 logger.error(traceback.format_exc())
 
+    ##############################################
+    #              下面是一些使用案例               #
+    ##############################################
     async def get_student_info(self, callback: Callable[..., NoReturn]):
         """向终点服务发送绑定的学生信息和跑道信息以及起跑时间
 
